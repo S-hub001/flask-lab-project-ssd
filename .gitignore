@@ -1,0 +1,13 @@
+# Database
+*.db
+firstapp.db
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Logs
+error.log
+
+# Environment files
+.env
