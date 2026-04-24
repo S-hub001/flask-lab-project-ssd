@@ -14,16 +14,10 @@ pipeline {
 
         stage('Test') {
             when {
-                expression { params.executeTests == true }
+                expression { params.executeTests }
             }
             steps {
                 echo 'Testing..'
-            }
-        }
-
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
             }
         }
     }
